@@ -28,20 +28,27 @@ sq.start();
 ###方法
 ####sq.next(func|sq)
 >添加下一个序列，接受`sequence对象`和`function`
+
 ####sq.start()
 >启动sequence序列
+
 ####sq.cancel()
 >取消sequence序列
 
 ####sq.success(func)
 >如果当前sequence执行成功则调用
+
 ####sq.fail(func)
 >如果当前sequence执行成功则调用
+
 ####sq.always(func)
 >如果当前sequence执行结束则调用（无论成功或者失败）
+
 ####sq.finalSuccess(func)
 >如果当前sequence序列最终执行成功则调用
+
 ####sq.finalFail(func)
 >如果当前sequence序列最终执行失败则调用
+
 ####sq.finalAlways(func)
 >如果当前sequence序列最终执行结束则调用（无论最终成功与否）
